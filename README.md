@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="author" content="Mirko Effe">
   <meta name="description" content="My First Personal Webpage">
-  <title>Mirko Effe</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,6 +37,7 @@
   <hr>
   <footer>
     <h2>.. <q>Never Give UP!</q> ..</h2>
+    <p>Copyright &copy; Mirko Effe &excl;</p>
   </footer>
 </body>
 
