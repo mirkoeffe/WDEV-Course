@@ -12,16 +12,6 @@
 <body>
   <header>
     <h1>Mirko Effe</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="https://github.com/mirkoeffe/WDEV-Course/tree/master/Courses" target="_blank"><b>My Studies</b></a>
-        </li>
-        <li>
-          <a href="https://github.com/mirkoeffe/WDEV-Course/tree/master/Projects" target="_blank"><b>My Works</b></a>
-        </li>
-      </ul>
-    </nav>
   </header>
   <main>
     <h3>I'm just learning how to code from the basic.</h3>
