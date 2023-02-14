@@ -1,9 +1,26 @@
 body {
-    background-color: rgb(136, 136, 136);
-    color: white;
-    padding: 75px;
-  }
+  background-color: rgb(136, 136, 136);
+  color: white;
+  padding: 75px;
+}
 
-  h1 {
-    color: rgb(201, 23, 23);
-  }
+a {
+  color: aliceblue;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(163, 14, 14);
+}
+
+h1 {
+  color: rgb(201, 23, 23);
+}
+
+h4 {
+  font-size: larger;
+  color: rgb(201, 23, 23);
+}
