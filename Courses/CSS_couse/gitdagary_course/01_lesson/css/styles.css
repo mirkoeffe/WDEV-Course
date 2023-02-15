@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*! if the color is defined in the body selector, it can be changed for each other selectors by defining again*/
+body {
+  font-size: 22px;
+  background-color: grey;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+main {
+  font-family: monospace;
+}
+
+h1,
+h2 {
+  color: rebeccapurple;
+}
+
+/*!This case will apply the second class but in this case is applying the last classes at the bottom*/
+p {
+  color: rebeccapurple;
+}
+
+p {
+  color: brown;
+}
+
+/*! ---------------------------------------------------------------- */
+/*! This will apply to all the .value class */
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+/*! This overrides the the rows:19-25 */
+.gray {
+  color: white;
+  font-style: italic;
+}
+
+/*! This will apply to all the .value class */
+.red {
+  color: red;
+}
+
+/*! This will apply to all the .value class */
+.first {
+  color: aquamarine;
+}
