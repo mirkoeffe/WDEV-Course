@@ -1,0 +1,189 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+/* ---- example of the selectors ----
+
+selector {
+    property1: value1, property;
+    property2: value2;
+    property3: value3;
+}
+
+--- examples --- 
+this values apply to all the objects
+border-box tells the browser to account for any border and padding in the values you specify for an element's width and height.
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+this list shows 5 different variables
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+this example shows the background color in blue(var:root) and a cover(cover) picture(var to link the pic) that it's shown only once(no-repeat)
+body {
+    background-image: url(./img/pattern-background-desktop.svg);
+    background-color: var(--pale-blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+in this example every h1 element will have the blue color if not overridden by the html
+h1 {
+    background-color: rgb(106, 211, 21);
+}
+
+explanation of the sides
+.para1 {
+  padding: top right bottom left;
+}
+
+all the element under this class will get the red color if not overridden by the html
+.child {
+  color: red;
+}
+
+all of the children inside of this child will get the top and bottom margins 13px and right and left 0
+.child > * {
+  margin: 13px 0;
+}
+
+in this example only the class name will be shown in aqua
+.aquaElement {
+    background-color: aqua;
+}
+
+this selector will get all the buttons of the page
+button {
+  property1: value1;
+}
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  width: 450px;
+  background-color: white;
+  color: var(--desaturated-blue);
+  border-radius: 20px;
+  overflow: hidden; /* The overflow CSS shorthand property sets the desired behavior for an element's overflow — i.e. when an element's content is too big to fit in its block formatting context — in both directions. */
+  margin: 50px auto;
+}
+
+.para1 {
+  line-height: 25px;
+}
+
+.title {
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* -- center the content -- */
+  text-align: center;
+  font-size: 18px;
+}
+
+.container > * {
+  margin: 13px 0;
+}
+
+.plan-container {
+  font-size: 16px;
+  background-color: var(--very-pale-blue);
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/*This will get all the <a> inside the plain-container element*/
+.plan-container a {
+  color: (--bright-blue);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.plan-container a:hover { 
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.plan-container strong {
+  color: var(--dark-blue);
+}
+
+/* middle content "annual plan and price" */
+.plan-description {
+  line-height: 20px;
+  margin-right: 75px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.proceed-button {
+  background-color: var(--bright-blue);
+  padding: 1rem 0;
+  color: white;
+  box-shadow: 0 20px 30px -8px rgb(197 189 245);
+}
+
+.proceed-button:hover {
+  opacity: 0.8;
+}
+
+.cancel-button {
+  background-color: white;
+  color: var(--desaturated-blue);
+  margin-top: 22px;
+}
+
+.cancel-button:hover {
+  color: black;
+}

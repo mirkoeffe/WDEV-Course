@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- All the basic infos via shortcut !+TAB -->
+
+<head>
+  <meta charset="UTF-8"> <!-- This is unicode -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This is needed for the responsive side -->
+  <title>Order Summary Component</title> <!-- Title of the page visible on the tab -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png"> <!-- The icon to be displayed -->
+  <link rel="stylesheet" href="styles.css"> <!-- CSS file linked to format the page -->
+</head>
+
+
+<body>
+  <!-- The body containt all the content of an HTML document (img, lists, ecc)
+Example content -->
+  <!--   <h1>Hello world</h1> -- The biggest header of the page visible on top of the page -->
+  <!--   <h1 class="aquaElement">Hello world again</h1> -- Biggest header, styled via a class -->
+  <!--   <h1 style="background-color: red;">Hello world</h1> -- Biggest header, style direct here -->
+  <!--   <h2 style="background-color: aqua;">Hello world</h2> -- The second header, style direct here -->
+  <div class="card">
+    <img class="hero-image" src="img/illustration-hero.svg" alt="Hero image">
+    <!-- The alt attribute provides txt alternative -->
+    <div class="container">
+
+      <h2 class="title">Order Summary</h2>
+      <!--  <div>I love Coding!</div> -- This div will keep the class="card" color -->
+      <!--  <div class="child">Class Child</div> This will get the color of class="child" -->
+      <p class="parag1">
+        You can now listen to millions of songs, audiobooks and podcasts on any device anywhere you like!
+      </p>
+      <div class="plan-container">
+        <img class="plan-image" src="img/icon-music.svg" alt="Icon Music">
+        <div class="plan-description">
+          <strong>Annual Plan</strong>
+          <p>€59.90/year</p>
+        </div>
+        <a href="#">Change</a>
+      </div>
+      <button class="proceed-button">Proceed to payment</button>
+      <button class="cancel-button">Cancel Order</button>
+    </div>
+  </div> <!-- The div tag defines a division or a section and can be selected by class on CSS -->
+</body>
+
+</html>
