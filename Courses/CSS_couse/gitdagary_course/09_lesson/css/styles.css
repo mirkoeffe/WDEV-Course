@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  background-color: lightblue;
+}
+
+.opposite {
+  display: inline-block;
+  /** display: inline-block; this span class will not overlap the other elements */
+  background-color: #333;
+  color: whitesmoke;
+  margin-top: 100px;
+  height: 200px;
+  padding: 4rem;
+}
+
+/* this applies to the whole list */
+ul {
+  list-style-type: none;
+  padding: 0.5rem;
+  text-align: right;
+  background-color: black;
+  margin: 0;
+}
+
+/* this applies only to the elements of the list */
+li {
+  display: inline-block;
+  margin-inline: 0.5rem; /*this apply between the links*/
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover, li a:focus {
+  text-decoration: underline;
+}
+
+
+/** in this case block level elements stack on top of each other and always create a new line. inline elements do not stack on top of each other (inline-block row 19).
