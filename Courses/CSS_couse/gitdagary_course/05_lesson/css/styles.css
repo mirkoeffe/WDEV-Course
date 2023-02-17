@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif; /**To use the font-family imported we must use the right values from the fonts.google.com rules */ 
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+.first {
+    text-align: justify; /** text-align: justify; is like a newspaper */
+    text-indent: 2em; /**text-indent will indent the first line of this p */
+    text-decoration: underline; /** the text is underlined */
+    text-transform: lowercase; /** all the letters of the class are lowercase */
+    line-height: 1.5;
+    word-spacing: 0.7em;
+    font-weight: 100; /**standard value is around 400*/
+    font-style: italic;
+}
+
+.second {
+    text-align: right; /** the content is aligned to the right side */
+    text-decoration: line-through; 
+    font-family: fantasy;
+    letter-spacing: 0.075em;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+
+
+/**text-decoration: none; is good for links */
+
