@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+body {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  background-color: gray;
+}
+
+body.page-one {
+  background-color: rgb(94, 118, 118);
+}
+
+body.page-two {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(39, 20%, 31%);
+}
+
+/*+ This classes must be written always in the correct order like this one
+/*+
+/*! The "a" class is set to defaul parameters 
+ a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+/*+ Setting the main in this way we'll set the elements from the main part
+/ main {
+/  opacity: 0.5;
+/ } */
+
+a {
+  color: hsl(124, 44%, 49%);
+  /** background: gold; This will set the background of the links*/
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+body.page-two a:visited {
+  color: blue;
+}
+
+body.page-one a:visited {
+  color: burlywood;
+}
+
+body.page-two a:hover, body.page-one a:hover {
+  opacity: 0.4;
+}
+
+a:hover,
+a:focus {
+  color: hsl(189, 44%, 49%, 0.8);
+  /*   background: gold;
+*/}
+
+a:active, body.page-one a:active, body.page-two a:active {
+  color: red;
+}
