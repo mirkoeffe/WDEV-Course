@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+}
+
+/* ol {
+    list-style-type: lower-alpha;
+} */
+
+.second {
+    list-style: lower-alpha;
+    text-align: center;
+    list-style-position: inside; /*! the letters are next to the list */
+}
+
+.three {
+    line-height: 1.6;
+    /** list-style-image: url("../img/check.png");
+    /** list-style: square url("../img/check.png") inside; */
+}
+
+.fourth {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: outside;
+    color: #00f;
+} 
+
+ul li {
+    color: red;
+}
+
+ul li:nth-child(2) {
+    color: #00f;
+}
+
+.second ::marker {
+    color: violet;
+}
+
+ul.fourth ::marker {
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only 5€ >>";
+}
+
+/*+ Ordered list = to numbers
+/*+ Unordered list = symbols
