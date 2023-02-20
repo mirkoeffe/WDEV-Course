@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  min-height: 200vh;
+}
+
+.outer-container {
+  border: 3px dashed #000;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+  position: relative; /* the .absolute class will be inside the outer container */
+}
+
+.inner-container {
+  border: 2px solid #678901;
+  width: 40vw;
+  height: 50vh;
+  margin: 200px auto;
+  /* position: relative;  the .absolute class will be inside the inner container and it ignores the .outer-container value*/
+}
+
+.box  {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  padding: 1rem;
+}
+
+.absolute {
+  background-color: #00f;
+  /*position: static;  static is the default value */
+  position: absolute;
+  top: 0;
+  /* left: -100000px; this is good to hide elements on the page*/
+  left: 0;
+  z-index: 1; /*will put the element on top of the next one */
+}
+
+.relative {
+  background-color: #678901;
+  position: relative;
+  top: 400px;
+  left: 200px;
+}
+
+.fixed {
+  background-color: red;
+  position: fixed; /* it will always appear on the same position in the browser */
+  top: 100px;
+}
+
+.sticky {
+  background-color: pink;
+  position: sticky;
+  top: 0;
+}
+
+/**  Remember, how to make things disappear! */
+
+/*//////////////////////////*/
+ 
+html { scroll-behavior: smooth; } /* This must go at the top of the css file and makes the 
+page scrolling slowly and not changing from page to page when you press the links at the bottom of the page*/
+
+section {
+  height: 100vh; /* 100vh is equal to one page, so it`s 100% of the viewport*/
+}
+
+.blue { background-color: blue; }
+.red { background-color: red; }
+.green { background-color: green; }
+
+header, footer {
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  font-size: 5rem;
+}
+
+footer {
+  background-color: #000;
+  position: sticky;
+  bottom: 0;
+  font-size: 3rem;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.social {
+  background-color: royalblue;
+  color: #fff;
+  font-size: inherit;
+  padding: 1rem;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  z-index: 1;
+}
+
