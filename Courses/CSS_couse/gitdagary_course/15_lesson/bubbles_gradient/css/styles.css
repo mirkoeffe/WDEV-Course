@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* Begin Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: lightgray;
+  /*! with 2 images, every properties are taking 2 values in the exact order of the images
+  background-image: url("../img/bubbles.png"), linear-gradient(to left, steelblue, #fff);
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center; /*! the following shorthand is containing all the above values */
+
+  background: repeat-y right center url(../img/bubbles.png), no-repeat linear-gradient(to left, steelblue, #fff);
+  background-size: 20%, auto; 
+}

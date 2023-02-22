@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* Begin Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block; /* this removes the padding on the bottom of the image */
+}
+/* End Reset */
+
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: lightgray;
+}
+
+.example {
+  margin: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
+}
+
+.example img {
+  width: 25%; /* it will be the 25% of the size of the value given on the .html */
+  height: auto; /* setting this auto will respond to the width*/
+}
