@@ -34,36 +34,45 @@ html {
 }
 
 body {
-  align-items: center;
   display: flex;
   flex-flow: column nowrap;
-  gap: 1em;
-  justify-content: center;
   min-height: 100vh;
 }
 
 /* || BLOCKS */
 /* aka components */
 
-.btn {
+.header {
+  background-color: var(--HEADER-BGCOLOR);
+  color: var(--HEADER-COLOR);
+  padding: 1rem 1rem 0.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+/* || ELEMENTS */
+/* No standalone meaning - semantically tied to the block */
+/* does not represent structure, not header__nav__btn */
+
+.header__btn {
   border-radius: 15px;
   min-height: 100px;
   min-width: 100px;
 }
 
-/* || BLOCKS */
-/* aka components */
+/* || MODIFIERS */
+/* incremental style changes */
 
 /* Blocks with modifiers */
-
-.btn--secondary {
+.header__btn--secondary {
   background-color: yellow;
 }
 
-.btn--lean {
+.header__btn--lean {
   transform: skewX(-10deg);
 }
 
-.btn--border-lg {
+.header__btn--border-lg {
   border: 5px solid lightblue;
 }
