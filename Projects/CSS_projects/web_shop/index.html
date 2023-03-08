@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mirko Effe">
+    <meta name="description" content="The official website for the Little Pizza Shop">
+    <title>The Little Pizza Shop</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Pizza Shop</h1>
+
+        <nav class="header__nav" aria-label="primary-navigation">
+            <ul class="header__ul">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero__h2">Benvenuti!</h2>
+        <figure>
+            <img src="img/pizza_and_drink_960x1200.jpeg" alt="Pizza and a Drink" title="Pizza Margherita!" width="960"
+                height="1200">
+            <figcaption class="offscreen">Pizza and a Drink</figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">Our Menu</h2>
+            <table class="menu__container">
+                <caption class="offscreen">Our Pizzas</caption>
+                <thead>
+                    <tr>
+                        <th class="menu__header" scope="col">Pizzas</th>
+                        <th class="menu__header" scope="col">Qty</th>
+                        <th class="menu__header" scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__item menu__ms" scope="row" rowspan="4">Margherita Slices</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">€1.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">€2.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">€3.25</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">4</td>
+                        <td class="menu__item">€4.50</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu__ds" scope="row" rowspan="4">Diavola Slices</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">€2.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">€4.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">€6.25</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">4</td>
+                        <td class="menu__item">€8.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__item menu__cs" colspan="3">Extra Mozzarella or Salami €1.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+            <p class="center">
+                <a href="#">Back to Top</a>
+            </p>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>
+          <span>Copyright &copy; <time id="year"></time></span>
+          <span>Little Pizza Shop</span><br />
+          <strong
+            >Website made by
+            <a href="https://www.linkedin.com/in/mirko-fede/" target="_blank"
+              >Mirko Effe</a
+            ></strong
+          >
+        </p>
+      </footer>
+</body>
+
+</html>

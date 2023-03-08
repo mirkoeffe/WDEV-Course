@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mirko Effe">
+    <meta name="description" content="Store Hours for the Little Pizza Shop">
+    <title>Contact Us - LPS</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Pizza Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <figure>
+            <img src="img/pizze_napole_1079x972.jpg" alt="Pizze Napoletane" title="Pizzas ready to eat!" width="1079"
+                height="972">
+            <figcaption class="offscreen">Pizze Napoletane</figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article class="main__article">
+            <h3>Our Location</h3>
+            <address>
+                Friedrichstraße 126 <br>
+                10105, Berlin, Germany
+                <br><br>
+                Phone: <a href="tel:+5555555555">555-555-5555</a>
+            </address>
+        </article>
+        <hr>
+        <article class="main__article contact">
+            <h2 class="contact__h2">Our Contact Form</h2>
+
+            <form action="https://httpbin.org/get" method="get" class="contact__form">
+                <fieldset class="contact__fieldset">
+                    <legend class="offscreen">Send Us A Message</legend>
+                    <p class="contact__p">
+                        <label class="contact__label" for="firstName">Name:</label>
+                        <input class="contact__input" type="text" name="firstName" id="firstName" placeholder="First Name" autocomplete="on"
+                            required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="email">Email:</label>
+                        <input class="contact__input" type="email" name="email" id="email" placeholder="your Email" autocomplete="on" required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="message">Message:</label>
+                        <br>
+                        <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10"
+                            placeholder="Type your message here"></textarea>
+                    </p>
+                </fieldset>
+                <br>
+                <button class="contact__button" type="submit">Send</button>
+                <button class="contact__button" type="reset">Reset</button>
+            </form>
+            <br>
+            <br>
+            <p>
+                <a href="#">Back To Top</a>
+            </p>
+        </article>
+    </main>
+    
+    <footer class="footer">
+        <p>
+          <span>Copyright &copy; <time id="year"></time></span>
+          <span>Little Pizza Shop</span><br />
+          <strong
+            >Website made by
+            <a href="https://www.linkedin.com/in/mirko-fede/" target="_blank"
+              >Mirko Effe</a
+            ></strong
+          >
+        </p>
+      </footer>
+</body>
+
+</html>
