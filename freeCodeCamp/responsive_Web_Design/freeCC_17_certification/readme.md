@@ -28,3 +28,5 @@ Note: Be sure to add ``<link rel="stylesheet" href="styles.css">`` in your HTML 
 <a href="https://github.com/Naereen/StrapDown.js/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Naereen/StrapDown.js.svg"/></a>
 <a href="https://shields.io/"><img alt="Made Width" src="https://img.shields.io/badge/MADE-WITH-<COLOR>.svg"/></a> <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" width="14%"/> <img alt="CSS" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=whi" width="12.45%"/>
 </p>
+
+### This project can be implemented with JavaScript once I learn it and fix the nav-bar problem on being always on the left
