@@ -18,7 +18,7 @@ Finally, you'll learn how to make webpages that respond to different screen size
 
 <h2 align="center"><b>Courses</b></h2>
 
-- [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
+- [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5) ✅
 - [Basic CSS](https://www.freecodecamp.org/learn/responsive-web-design/#basic-css)
 - [Applied Visual Design](https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design)
 - [Applied Accessibility](https://www.freecodecamp.org/learn/responsive-web-design#applied-accessibility)
