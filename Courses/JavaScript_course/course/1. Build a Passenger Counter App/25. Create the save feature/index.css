@@ -25,11 +25,11 @@ button {
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 9px;
 }
 
 #increment-btn {
-    background: darkred;
+    background: firebrick;
 }
 
 #save-btn {
