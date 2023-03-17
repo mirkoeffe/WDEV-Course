@@ -2,4 +2,10 @@
 // "Something went wrong, please try again" in the paragraph
 // that has the id="error".
 
+let errorParagraph = document.getElementById("error");
+console.log(errorParagraph);
 
+function purchase() {
+  console.log("clicked");
+  errorParagraph.textContent = "Something went wrong, please try again"
+}
