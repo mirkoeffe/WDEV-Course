@@ -1,12 +1,11 @@
-// const credits = 0
+// const credits = 0;
 
 // if (credits) {
-//     console.log("Let's play 🎰")
+//   console.log("Let's play 🎰");
 // } else {
-//     console.log("Sorry, you have no credits 😭")
+//   console.log("Sorry, you have no credits 😭");
 // }
 
-// truthy
 // falsy
 
 // false
@@ -16,13 +15,33 @@
 // undefined -> how JavaScript signalizes emptiness
 // NaN
 
-let currentViewers = null
+// truthy
 
-currentViewers = ["jane", "nick"]
+// true
+// any number major to 0
+// "fdjakl" string with at least one value
 
-currentViewers = null
+let currentViewers = null;
 
-if (currentViewers) {
+currentViewers = ["jane", "nick"];
+
+console.log(currentViewers);
+
+function letViewers() {
+  if (currentViewers) {
     // do something , e.g. notify the live streamers
-    console.log("we have viewers")
+    console.log("we have viewers");
+  } else {
+    console.log("There are no viewers");
+  }
 }
+
+letViewers();
+
+currentViewers = null;
+
+letViewers();
+
+currentViewers = 5;
+
+letViewers();
