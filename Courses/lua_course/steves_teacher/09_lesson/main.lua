@@ -3,7 +3,7 @@ local function sayHello(name)
   print("Hello, I'm " .. name .. "!")
 end
 
-sayHello()        -- it takes Jack because there's no value (false) passed as an argument
+sayHello()        -- it takes Jack because there's no value passed as an argument(same as a falsy value)
 sayHello(false)   -- this is the same as the previous one
 -- sayHello(true)    -- this will print an error because no value are passed
 sayHello("Mirko") -- it takes Mirko
