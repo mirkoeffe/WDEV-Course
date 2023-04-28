@@ -1,0 +1,2 @@
+Hello there, this method is better then all the io methods above!
+This will append the text in a new line
